@@ -11,7 +11,8 @@ cover:
     image: "/images/posts/hello-world/architecture.svg"
     alt: "System Architecture"
     caption: "Microservices Architecture Design"
-    relative: false 
+    hiddenInList: false
+    hiddenInSingle: false
 
 summary: "探讨在技术博客重构过程中，如何权衡构建性能、部署流程与维护成本，最终选择 Hugo + GitHub Actions + PaperMod 的全链路解决方案。"
 ---
