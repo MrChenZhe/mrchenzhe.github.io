@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .bar-hexo { fill: #ef4444; }
+      .bar-hugo { fill: #22c55e; }
+      .axis { stroke: #64748b; stroke-width: 2; }
+      .text { font-family: 'Segoe UI', sans-serif; font-size: 14px; fill: #1e293b; text-anchor: middle; }
+      .title { font-family: 'Segoe UI', sans-serif; font-size: 20px; fill: #0f172a; font-weight: bold; }
+    </style>
+  </defs>
+
+  <rect width="800" height="400" class="bg" />
+
+  <text x="400" y="40" class="title" text-anchor="middle">Build Performance Comparison (Time in Seconds)</text>
+
+  <!-- Y Axis -->
+  <line x1="100" y1="350" x2="100" y2="80" class="axis" />
+  <text x="80" y="350" class="text">0s</text>
+  <text x="80" y="220" class="text">5s</text>
+  <text x="80" y="90" class="text">10s</text>
+
+  <!-- X Axis -->
+  <line x1="100" y1="350" x2="700" y2="350" class="axis" />
+
+  <!-- Bar 1: Hexo (Slow) -->
+  <rect x="150" y="100" width="100" height="250" class="bar-hexo" />
+  <text x="200" y="370" class="text" font-weight="bold">Hexo (Node.js)</text>
+  <text x="200" y="90" class="text">~9.5s</text>
+
+  <!-- Bar 2: Gatsby (Very Slow) -->
+  <rect x="300" y="80" width="100" height="270" style="fill: #8b5cf6;" />
+  <text x="350" y="370" class="text" font-weight="bold">Gatsby (React)</text>
+  <text x="350" y="70" class="text">~10.2s</text>
+
+  <!-- Bar 3: Hugo (Fast) -->
+  <rect x="450" y="330" width="100" height="20" class="bar-hugo" />
+  <text x="500" y="370" class="text" font-weight="bold">Hugo (Go)</text>
+  <text x="500" y="325" class="text">&lt; 0.5s</text>
+
+  <!-- Legend -->
+  <rect x="650" y="100" width="20" height="20" class="bar-hexo" />
+  <text x="700" y="115" class="text" text-anchor="start">Slow</text>
+  <rect x="650" y="130" width="20" height="20" class="bar-hugo" />
+  <text x="700" y="145" class="text" text-anchor="start">Fast</text>
+
+</svg>

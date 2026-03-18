@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333" />
+    </marker>
+    <style>
+      .box { fill: #f0f4f8; stroke: #334155; stroke-width: 2; rx: 8; }
+      .text { font-family: 'Segoe UI', sans-serif; font-size: 14px; fill: #1e293b; text-anchor: middle; dominant-baseline: middle; }
+      .line { stroke: #64748b; stroke-width: 2; marker-end: url(#arrow); fill: none; }
+      .title { font-family: 'Segoe UI', sans-serif; font-size: 20px; fill: #0f172a; font-weight: bold; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="30" class="title" text-anchor="middle">Microservices Architecture</text>
+
+  <!-- Client -->
+  <rect x="50" y="150" width="100" height="60" class="box" />
+  <text x="100" y="180" class="text">Client</text>
+
+  <!-- Load Balancer -->
+  <rect x="250" y="150" width="120" height="60" class="box" />
+  <text x="310" y="180" class="text">API Gateway</text>
+
+  <!-- Service A -->
+  <rect x="450" y="80" width="120" height="60" class="box" />
+  <text x="510" y="110" class="text">Auth Service</text>
+
+  <!-- Service B -->
+  <rect x="450" y="220" width="120" height="60" class="box" />
+  <text x="510" y="250" class="text">Content Service</text>
+
+  <!-- Database -->
+  <path d="M650,150 C650,140 750,140 750,150 L750,210 C750,220 650,220 650,210 Z M650,150 C650,160 750,160 750,150" fill="#e2e8f0" stroke="#334155" stroke-width="2" />
+  <text x="700" y="185" class="text">Database</text>
+
+  <!-- Connections -->
+  <path d="M150,180 L240,180" class="line" />
+  <path d="M370,180 L410,180 L410,110 L440,110" class="line" />
+  <path d="M370,180 L410,180 L410,250 L440,250" class="line" />
+  <path d="M570,110 L610,110 L610,180 L640,180" class="line" />
+  <path d="M570,250 L610,250 L610,180 L640,180" class="line" />
+</svg>
