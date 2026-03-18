@@ -24,8 +24,11 @@ canonifyURLs = true
   ShowToc = true
   TocOpen = false
   homeInfoParams = true
-  cover = "/images/cover.jpg"
-  coverAlt = "风清扬的个人博客"
+  [params.cover]
+    linkFullImages = true
+    hidden = true
+    hiddenInList = true
+    hiddenInSingle = true
 
 [params.profileMode]
   enabled = true
