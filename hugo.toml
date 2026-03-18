@@ -24,7 +24,7 @@ canonifyURLs = true
   ShowToc = true
   TocOpen = false
   homeInfoParams = true
-  cover = "/images/cover.png"
+  cover = "/images/cover.jpg"
   coverAlt = "风清扬的个人博客"
 
 [params.profileMode]
