@@ -4,10 +4,12 @@ title = "风清扬的个人博客"
 theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
-relativeURLs = true
-canonifyURLs = true
+buildFuture = false
+buildExpired = false
 enableEmoji = true
 disableSpecialCharsEscape = false
+relativeURLs = true
+canonifyURLs = true
 
 [params]
   env = "production"
@@ -33,13 +35,12 @@ disableSpecialCharsEscape = false
   imageWidth = 150
   imageHeight = 150
   imageTitle = "avatar"
-
-[[params.profileMode.buttons]]
-  name = "文章"
-  url = "/posts"
-[[params.profileMode.buttons]]
-  name = "关于我"
-  url = "/about"
+  [[params.profileMode.buttons]]
+    name = "文章"
+    url = "/posts"
+  [[params.profileMode.buttons]]
+    name = "关于我"
+    url = "/about"
 
 [[menu.main]]
   name = "首页"
