@@ -1,0 +1,62 @@
+baseURL = "https://mrchenzhe.github.io/"
+languageCode = "zh-CN"
+title = "风清扬的个人博客"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+relativeURLs = true
+canonifyURLs = true
+enableEmoji = true
+disableSpecialCharsEscape = false
+
+[params]
+  env = "production"
+  title = "风清扬的个人博客"
+  description = "以笔为剑，以文为锋"
+  author = "风清扬"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  homeInfoParams = true
+  cover = "/images/cover.png"
+  coverAlt = "风清扬的个人博客"
+
+[params.profileMode]
+  enabled = true
+  title = "风清扬"
+  subtitle = "开发工程师｜技术分享｜成长记录"
+  imageUrl = "/images/avatar.png"
+  imageWidth = 150
+  imageHeight = 150
+  imageTitle = "avatar"
+
+[[params.profileMode.buttons]]
+  name = "文章"
+  url = "/posts"
+[[params.profileMode.buttons]]
+  name = "关于我"
+  url = "/about"
+
+[[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 10
+[[menu.main]]
+  name = "文章"
+  url = "/posts/"
+  weight = 20
+[[menu.main]]
+  name = "关于"
+  url = "/about/"
+  weight = 30
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    style = "github-dark"
