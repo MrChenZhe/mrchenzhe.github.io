@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>风清扬的个人博客</title><link>https://mrchenzhe.github.io/</link><description>Recent content on 风清扬的个人博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 18 Mar 2026 22:30:00 +0800</lastBuildDate><atom:link href="https://mrchenzhe.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>重构与新生：从 Hexo 到 Hugo 的技术选型与迁移实践</title><link>https://mrchenzhe.github.io/posts/hello-world/</link><pubDate>Wed, 18 Mar 2026 22:30:00 +0800</pubDate><guid>https://mrchenzhe.github.io/posts/hello-world/</guid><description>探讨在技术博客重构过程中，如何权衡构建性能、部署流程与维护成本，最终选择 Hugo + GitHub Actions + PaperMod 的全链路解决方案。</description></item><item><title>关于我 | About Me</title><link>https://mrchenzhe.github.io/about/</link><pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>https://mrchenzhe.github.io/about/</guid><description>&lt;h2 id="-吾谁与归"&gt;👨‍💻 吾谁与归&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;Code is poetry, architecture is philosophy.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;你好，我是&lt;strong&gt;风清扬&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;一名深耕于后端架构与云原生领域的&lt;strong&gt;资深开发工程师&lt;/strong&gt;。我不仅是代码的编写者，更是系统秩序的构建者。在过去的几年里，我致力于在高并发、高可用系统中寻找性能的极致边界，并在复杂的业务场景中抽象出优雅的领域模型。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-技能图谱--tech-stack"&gt;🛠️ 技能图谱 | Tech Stack&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;我坚信，语言只是工具，解决问题的思维才是核心竞争力。&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;核心语言&lt;/strong&gt;: Java / Go / Python&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;架构设计&lt;/strong&gt;: 微服务架构 (Microservices) / 领域驱动设计 (DDD) / 事件驱动架构 (EDA)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中间件&lt;/strong&gt;: Redis / Kafka / RabbitMQ / Elasticsearch&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;云原生 &amp;amp; DevOps&lt;/strong&gt;: Docker / Kubernetes / CI/CD (GitHub Actions, Jenkins) / Terraform&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据库&lt;/strong&gt;: MySQL / PostgreSQL / MongoDB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="-信仰与原则--philosophy"&gt;🚀 信仰与原则 | Philosophy&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Keep It Simple, Stupid (KISS)&lt;/strong&gt;: 最好的代码是没有代码。能用一行代码解决的，绝不写两行；能用简单架构撑住的，绝不引入过度设计。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;You Aren&amp;rsquo;t Gonna Need It (YAGNI)&lt;/strong&gt;: 拒绝面向“未来可能”的防御性编程，只为当下真实的业务痛点买单。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Owner 意识&lt;/strong&gt;: 提交的代码不仅要能跑，还要具备可观测性、可维护性。代码上线只是开始，而不是结束。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="-开源与折腾--open-source--hacking"&gt;💡 开源与折腾 | Open Source &amp;amp; Hacking&lt;/h2&gt;
+&lt;p&gt;工作之余，我是一个无可救药的“造轮子”爱好者和开源社区的活跃分子。我享受从零到一构建工具的乐趣，也乐于为开源世界贡献哪怕是一行代码的修复。&lt;/p&gt;</description></item></channel></rss>
